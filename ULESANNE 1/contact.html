@@ -6,6 +6,44 @@
     <title>Contact</title>
     <link rel="stylesheet" href="960_12_col.css">
     <link rel="stylesheet" href="bgdesign.css">
+    <style>
+        .wrapper {
+            padding-top: 150px;
+        }
+        ul {
+            color: #b5c1ad;
+            font-size: 120%;
+            font-family: Quicksandbook, Arial, Helvetica, sans-serif
+        }
+        h3 {
+            font-size: 150%;
+            margin-left: -10px;
+            color: antiquewhite;
+        }
+        button {
+            background-color: #807c72;
+            border-radius: 8px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+        }
+        .footer {
+            margin-top: 150em;
+        }
+        .table {
+            color: antiquewhite;
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif
+        }
+        #text {
+            background-color: #807c72;
+        }
+    </style>
+     <script>
+    function goBack() {
+        window.history.go(-1)
+    }
+    </script>
+
 </head>
 <body>
     <div class="header">
@@ -20,6 +58,34 @@
         </div>
     </div>
     <div class="wrapper">
-    
+        <div class="main-story container_12">
+            <div class="grid_1">
+                <ul>
+                    <h3>Contact details</h3>
+                    <li>Email: <p>pedalfaster@gmail.com</p></li><br>
+                    <li>Address: <p>Pedaali, Tabasalu, Suomi</p></li><br>
+                    <li>Phone: <p>+370 51512424</p></li><br>
+                </ul>
+            </div>
+            <div class="grid_4 push_8">
+                <fieldset class="table">
+                    <legend>Send us a message</legend><br>
+                    <label>First Name:<br><input type="text" id="firstname" name="firstname"></label><br><br>
+                    <label>Last Name:<br><input type="text" name="" name="lastname"></label><br><br>
+                    <label>Email:<br><input type="text" name="" name="email"></label><br>
+                    <p>Message:</p>
+                    <textarea type="text" name="comment" cols="40" rows="10" placeholder="Message here"></textarea>
+                </fieldset>
+            </div>
+            <div class="footer clearfix">
+                <div class="container_12">
+                  <p class="grid_12">
+                    <button class="pull_7" onclick="goBack()">Go Back</button>
+                    <a href="legal.html"> Legal Information </a>|<a href="privacy.html"> Privacy Policy </a>
+                    |<a href="copyright.html"> Copyright &copy; Pedal Faster 2025    </a>
+                  </p>
+                </div>
+        </div>
+    </div>
 </body>
 </html>
