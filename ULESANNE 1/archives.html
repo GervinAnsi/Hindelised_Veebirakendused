@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archives</title>
+    <title>News</title>
     <link rel="stylesheet" href="960_12_col.css">
     <link rel="stylesheet" href="bgdesign.css">
+    <script>
+        function goBack() {
+            window.history.go(-1)
+        }
+    </script>
+    <style>
+         button {
+            background-color: #807c72;
+            border-radius: 8px;
+    
+        }
+        .wrapper{
+           margin-top: 150px;
+        }
+        article{
+            padding-bottom: 150em;
+        }
+        .more-articles{
+            font-size: 140%;
+        }
+
+    </style>
 </head>
 <body>
     <div class="header">
@@ -20,6 +42,28 @@
         </div>
     </div>
     <div class="wrapper">
-    
+        <div class="more-articles container_12">
+            <div class="article grid_6"><a href="news.html"><h2>Fixed Gear Forever</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2>On the Road:<br> From the fixed gear fanatic's point of view</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2>Brand History: Pashley Cycles - hand built in England</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2>Frame Wars: Innovations in cycle manufacture and repair</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2>Touring Diary:<br> A Sketchbook in your basket</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2>Top Ten Newcomers for 2023:<br> A peek at what's to come</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2>InnerTube:<br> The best cycling videos on the web</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2 id="product">Product Review:<br> All baskets were not created equal</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2>Going Public:<br> Out & about with the founder of Public</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2>Cycle Lane Defence:<br> Know your rights</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2>Bicycle Hall of Fame:<br> The 1958 Schwinn Spitfire</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2>Reader Survey: <br>Share ypur thoughts with us!</h2></a></div>
+            <div class="article grid_6"><a href="news.html"><h2>Chain Gang:<br> The evolution of the humble bike chain</h2></a></div>
+        <div class="footer clearfix">
+            <div class="container_12">
+              <p class="grid_12">
+                <button class="pull_5" onclick="goBack()">Go Back</button>
+                <a href="legal.html"> Legal Information </a>|<a href="privacy.html"> Privacy Policy </a>
+                |<a href="copyright.html"> Copyright &copy; Pedal Faster 2025    </a>
+              </p>
+            </div>
+        </div>
 </body>
 </html>
