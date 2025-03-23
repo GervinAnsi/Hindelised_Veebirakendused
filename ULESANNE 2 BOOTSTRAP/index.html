@@ -13,6 +13,24 @@
     .nav-link {
         color: #000000da;
     }
+    .carousel-inner{
+     align-content: center;
+     border-radius: 30px;
+     border-style:solid;
+     border-width: 10px;
+     border-color: #889ba8a9;
+    }
+    .img {
+        height: 1024px;
+    }
+    .carousel-caption {
+        background-color: #00000079;
+        margin: 100px;
+    }
+    button {
+        margin-bottom: 50px;
+    }
+
     </style>
 </head>
 <body>
@@ -50,35 +68,63 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">Ostame ja Müüme Euroaluseid – Kiirelt ja Usaldusväärselt!</h5>
-          <p class="card-text">Oleme spetsialiseerunud euroaluste ostule ja müügile, pakkudes kvaliteetseid lahendusi nii ettevõtetele kui ka eraisikutele. Meie eesmärk on tagada kiire ja mugav teenindus, pakkudes konkurentsivõimelisi hindu ning paindlikke tarnevõimalusi.
+          <p class="card-text">Oleme spetsialiseerunud euroaluste ostule ja müügile, pakkudes kvaliteetseid lahendusi nii ettevõtetele kui ka eraisikutele. 
+            Meie eesmärk on tagada kiire ja mugav teenindus, pakkudes konkurentsivõimelisi hindu ning paindlikke tarnevõimalusi.
             
            <br> Võta meiega ühendust juba täna ning leiame parima lahenduse sinu ettevõttele!</p>
-          <a href="products.html" class="btn btn-primary" style="background-color: #2e5a79f5;">Tooted</a>
-        </div>
-        <div class="card-footer text-body-secondary">
-            <div
-            id="carouselExampleSlide"
-            class="carousel slide"
-            data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://mdbootstrap.com//img/Photos/Slides/img%20(35).jpg" 
-                        alt=""
-                        class="d-block w-75">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://mdbootstrap.com//img/Photos/Slides/img%20(36).jpg" 
-                        alt=""
-                        class="d-block w-75">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://mdbootstrap.com//img/Photos/Slides/img%20(37).jpg" 
-                        alt=""
-                        class="d-block w-75">
-                    </div>
-                </div>
+          <a href="products.html" class="btn btn-primary" style="background-color: #2e5a79f5;">Tooted</a><br><br>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
-        </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/pilt1.jpg" class="d-block w-100" alt="..." height="640px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Kvaliteetsed tooted!</h3>
+                  <h5>Pakume oma klientidele alati parimat!</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/pilt2.jpg" class="d-block w-100" alt="..." height="640px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Parim tootevalik!</h3>
+                  <h5>Meilt leiate Baltikumi suurima tootevaliku!</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/pilt3.jpg" class="d-block w-100" alt="..." height="640px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Pakume erilahedusi!</h3>
+                  <h5>Ära muretse kui kohe sobivat ei leia! Võta meiega ühendust ja leiame lahenduse!</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/pilt4.jpg" class="d-block w-100" alt="..." height="640px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Saadaval värvivalik!</h3>
+                  <h5>Vali sobiv ning telli juba täna!</h5>
+                </div>
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <footer class="bg-body-tertiary text-center text-lg-start">
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+              © 2025 Copyright:
+              <a class="text-body" href="index.html">Euroalused AS</a>
+            </div>
+          </footer>
       </div>
 </body>
 </html>
