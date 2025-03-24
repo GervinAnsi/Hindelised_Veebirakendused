@@ -13,6 +13,17 @@
     .nav-link {
         color: #000000da;
     }
+    .stretched-link::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        pointer-events: auto;
+        content: "";
+        background-color: rgba(0,0,0,0);
+    }   
     </style>
 </head>
 <body>
@@ -44,6 +55,136 @@
               </ul>
         </div>
     </nav>
+    <div class="container">
+     <h2 class="my-4">Blogi</h2>
+        <div class="row my-5">
+            <div class="card-group">
+                <div class="card">
+                    
+                        <img 
+                        src=images/pilt1.jpg 
+                        class="card-img-top"
+                        alt=""
+                        />
+                        <div class="card-body stretched-link">
+                            <h5 class="card-title">EUR-oalus</h5>
+                            <p class="card-text">
+                             Kui hea on üks vana hea Euroalus...
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Viimane uuendus oli 15 min tagasi
+                                </small>
+                            </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    
+                    <img 
+                    src=images/pilt5.jpg
+                    alt=""
+                    class="card-img-top"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Ohutu liiklemine</h5>
+                        <p class="card-text">
+                           Kuidas ohutult liigutada aluseid...
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                Viimane uuendus oli päev tagasi
+                            </small>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    
+                    <img 
+                    src=images/pilt3.jpg 
+                    alt=""
+                    class="card-img-top"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Imeline aluste maailm</h5>
+                        <p class="card-text">
+                            Kui palju aluseid siis päriselt olemas on...
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                Viimane uuendus oli 3 päeva tagasi
+                            </small>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="card-group">
+                <div class="card">
+                    
+                        <img 
+                        src=images/pilt4.jpg 
+                        class="card-img-top"
+                        alt=""
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Värvid ja veelkord värvid</h5>
+                            <p class="card-text">
+                                Tutvume lähemalt erinevate värvidega...
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    Viimane uuendus oli 5 päeva tagasi
+                                </small>
+                            </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    
+                    <img 
+                    src=images/pilt6.webp
+                    alt=""
+                    class="card-img-top"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Ohutu ladustamine</h5>
+                        <p class="card-text">
+                           Kuidas käib aluste ohutu ladustamine..
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                Viimane uuendus oli nädal tagasi
+                            </small>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    
+                    <img 
+                    src=images/pilt7.png
+                    alt=""
+                    class="card-img-top"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Mida alused teevad</h5>
+                        <p class="card-text">
+                            Kuidas alused on saanud standardiks logistikas...
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                Viimane uuendus oli 2 nädalat tagasi
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
         <footer class="bg-body-tertiary text-center text-lg-start">
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
               © 2025 Copyright:
